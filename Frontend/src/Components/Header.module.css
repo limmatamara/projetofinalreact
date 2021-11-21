@@ -1,0 +1,38 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
+  font-weight: bolder;
+
+}
+
+.trending {
+  margin-left: 3%;
+}
+
+.topics  {
+  display: flex;
+  width: 40%
+}
+
+.topics ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.topics a {
+  text-decoration: none;
+  color: white;
+}
+
+.topics a:hover {
+  color:rgba(107, 214, 228, 0.507);
+}
+
+
+
