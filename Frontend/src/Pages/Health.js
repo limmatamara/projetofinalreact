@@ -1,5 +1,6 @@
 import { useEffect} from "react";
 import UseApi from "../UseApi.js";
+import Card from "../Components/Card.js";
 
 const Health = () => {
 
@@ -11,7 +12,8 @@ const Health = () => {
 
   return (
     <>
-    <h1>Saúde</h1>
+      <h1>Saúde</h1>
+      <Card news={news}/>
     </>
   );
 }

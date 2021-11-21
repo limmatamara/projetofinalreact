@@ -1,4 +1,5 @@
 import { useEffect} from "react";
+import Card from "../Components/Card.js";
 import UseApi from "../UseApi.js";
 
 const Politic = () => {
@@ -11,7 +12,8 @@ const Politic = () => {
 
   return (
     <>
-    <h1>Política</h1>
+      <h1>Política</h1>
+      <Card news={news}/>
     </>
   );
 }

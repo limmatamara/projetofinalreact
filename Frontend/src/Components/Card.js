@@ -6,12 +6,15 @@ function Card ({news}) {
       {news.map((notice, index) => (
         <li key={index}>
           <div className={style.notices}>
-            <div>
+            <div className={style.imageNotice}>            
               <img src={notice.multimedia[0].url} alt="Notice_Image" />
             </div>
 
-            <div>
-              
+            <div className={style.noticeNote}>            
+              <h2>{notice.title}</h2>
+              <span>{notice.byline}</span>
+            
+              <p>{notice.abstract}</p>
             </div>
           </div>
 

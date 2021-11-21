@@ -1,5 +1,6 @@
 import { useEffect} from "react";
 import UseApi from "../UseApi.js";
+import Card from "../Components/Card.js";
 
 const Home = () => {
 
@@ -11,7 +12,8 @@ const Home = () => {
 
   return (
     <>
-    <h1>Página Inicial</h1>
+      <h1>Página Inicial</h1>
+      <Card news={news}/>
     </>
   );
 }

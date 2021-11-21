@@ -1,0 +1,27 @@
+ul {
+  list-style: none;
+}
+
+.notices {
+  margin-top: 3%;
+  display: flex;
+}
+
+.imageNotice img {
+  width: 350px;
+  list-style: none;
+  border-radius: 4px;
+}
+
+.noticeNote {
+  margin-left: 3%;
+}
+
+.noticeNote h2 {
+  text-decoration: underline;
+}
+
+.noticeNote span {
+  font-style: italic;
+  font-size: 0.8rem;
+}

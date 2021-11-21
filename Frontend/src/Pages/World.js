@@ -1,4 +1,5 @@
 import { useEffect} from "react";
+import Card from "../Components/Card.js";
 import UseApi from "../UseApi.js";
 
 const World = () => {
@@ -11,7 +12,8 @@ const World = () => {
 
   return (
     <>
-    <h1>Mundo</h1>
+      <h1>Mundo</h1>
+      <Card news={news}/>
     </>
   );
 }
