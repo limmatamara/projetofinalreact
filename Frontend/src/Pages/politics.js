@@ -2,20 +2,20 @@ import { useEffect} from "react";
 import Card from "../Components/Card.js";
 import UseApi from "../UseApi.js";
 
-const ScienceAndTechnology = () => {
+const Politics = () => {
 
   const { news, GetApi } = UseApi();
 
   useEffect(() => {
-      GetApi('ScienceAndTechnology');
+      GetApi('politics');
   }, []);
 
   return (
     <>
-      <h1>Ciência e Tecnologia</h1>
+      <h1>Política</h1>
       <Card news={news}/>
     </>
   );
 }
 
-export default ScienceAndTechnology;
+export default Politics;

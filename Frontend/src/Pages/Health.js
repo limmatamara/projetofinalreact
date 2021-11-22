@@ -7,7 +7,7 @@ const Health = () => {
   const { news, GetApi} = UseApi();
 
   useEffect(() => {
-      GetApi('Health');
+      GetApi('health');
   }, []);
 
   return (

@@ -7,7 +7,7 @@ const World = () => {
   const { news, GetApi } = UseApi();
 
   useEffect(() => {
-      GetApi('World');
+      GetApi('world');
   }, []);
 
   return (

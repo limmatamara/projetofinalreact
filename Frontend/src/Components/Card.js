@@ -2,7 +2,7 @@ import style from './Card.module.css';
 
 function Card ({news}) {
   return (
-    <ul>
+    <ul className={style.container}>
       {news.map((notice, index) => (
         <li key={index}>
           <div className={style.notices}>
@@ -16,12 +16,8 @@ function Card ({news}) {
             
               <p>{notice.abstract}</p>
             </div>
-          </div>
-
-          
-
-        </li>
-        
+          </div>        
+        </li>        
       ))}
     </ul>
   );
